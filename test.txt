@@ -1,0 +1,35 @@
+VID 1 - IP Address Part-1 (Apa itu IP, Format IPV4)
+
+Alamat IPv4 bersifat unik karena setiap alamat mendefinisikan satu koneksi perangkat ke
+Internet global. Dua perangkat di Internet tidak pernah dapat memiliki alamat yang sama 
+secara bersamaan.IP didapatkan dari ISP (Internet Service Provider) dan yang mengatur IP
+secara global adalah Internet Corporation for Assigned Names and Numbers.
+
+Untuk melihat IP melalui terminal, cukup ketik ifconfig untuk linux dan mac. Untuk
+windows kita bisa ketik di comment line menggunakan perintah ipconfig. Setelah itu akan
+muncul format seperti ini:
+					GAMBAR
+
+Mengapa disebut Octet?
+
+
+VID 2 - IPV4 Part-2 (Classful Addressing)
+
+Untuk alokasi alamat IPV4 ada sebanyak 2^32 = 4 milliar atau sekitar 4.294.967.296.
+IPV4 Addressing:
+-Classful Addressing:
+	* Kelas A: Memiliki alokasi alamat paling besar yaitu 50% dari seluruh alamat IP
+	* Kelas B: Memiliki alokasi alamat paling besar kedua, yaitu 25%
+	* Kelas C: Dilanjut dengan kelas C sebesar 12.5%
+	* Kelas D: Memiliki alokasi alamat 6.25%
+	* Kelas E: Juga memiliki alokasi alamat yang sama dengan kelas D yaitu 6.25%
+					GAMBAR MENENTUKAN KELAS
+IP yang biasa digunakan untuk komersialisasi (diperjual belikan untuk umum) adalah yang
+berada di kelas A-C. Untuk kelas D dan E, penggunaannya lebih khusus. Kelas D digunakan
+khusus untuk keperluan multicast dimana IP Address host awalnya adalah 224.0.0.0 -
+239.255.255.255. Sementara kelas E, dicadangkan untuk keperluan eksperimental saja, dimana
+IP Address host awal adalah 240.0.0.0 - 255.255.255.255.
+
+Classful Addressing menyebabkan adanya alama2 mubazir terbuang, jadi classful addressing
+tidak lagi digunakan. Classful ini digantikan dengan mekanisme lain, yaitu Classless Addressing.
+-Classless Addressing
